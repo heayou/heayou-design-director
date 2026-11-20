@@ -58,3 +58,5 @@ el('simpleMode').onclick=()=>{state.mode='simple';el('proWrap').style.display='n
 el('proMode').onclick=()=>{state.mode='pro';el('proWrap').style.display='block';el('proMode').classList.add('selected');el('simpleMode').classList.remove('selected');el('proMode').setAttribute('aria-pressed','true');el('simpleMode').setAttribute('aria-pressed','false');render()};
 el('resetPro').onclick=()=>{state.pro={};renderPro();render()};
 renderPro();render();</script></body></html>
+
+<!-- redeploy trigger: Netlify publish directory corrected -->
